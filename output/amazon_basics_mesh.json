@@ -1,0 +1,177 @@
+{
+  "answers": "",
+  "availability": "P.when(\"A\", \"load\").execute(\"aod-assets-loaded\", function(A){\n        function logAssetsNotLoaded() {\n            if (window.ueLogError) {\n                var customError = { message: 'Failed to load AOD assets for WDG: furniture_display_on_website, Device: web' };\n                var additionalInfo = {\n                    logLevel : 'ERROR',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                ueLogError (customError, additionalInfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyAssetsLoaded() {\n            var assetsLoadedPageState = A.state('aod:assetsLoaded');\n            var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');\n\n            if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)\n                && (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {\n                A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});\n                logAssetsNotLoaded();\n            }\n        }\n\n        setTimeout(verifyAssetsLoaded, 50000)\n    });\n                     No puede enviarse este producto al punto de entrega seleccionado. Selecciona un punto de entrega diferente.",
+  "avg_rating": "4.3 de 5 estrellas",
+  "category": "Hogar y Cocina›Muebles›Muebles de Oficina para Hogar›Sillas para Oficina en Casa›Sillas de Escritorio",
+  "description": "Reseña del editor               Amazon Basics, Este producto puede ser originario de Vietnam                  De The Manufacturer               AmazonBasics",
+  "out_of_stock": true,
+  "price": "COP378,475.59",
+  "review_count": "16,746 calificaciones globales",
+  "ships_from": "",
+  "sold_by": "",
+  "title": "Amazon Basics Silla de escritorio de oficina de malla transpirable con apoyabrazos, soporte lumbar, giro de 360 grados, altura ajustable, color negro",
+  "features": [
+    {
+      "Marca": "Amazon Basics"
+    },
+    {
+      "Características especiales": "Ajustable"
+    },
+    {
+      "Total del paquete según la medida elegida para referenciar precio": "1.0 Conteo"
+    },
+    {
+      "Usos recomendados para producto": "Oficina"
+    },
+    {
+      "Tipo de habitación": "Oficina"
+    },
+    {
+      "Descripción del rango de edad": "Adulto"
+    },
+    {
+      "Componentes incluidos": "cojín trasero, barra trasera, cojín de asiento, palet, brazos, elevador de gas, base, ruedas"
+    },
+    {
+      "Nombre Modelo": "B00IIFW2L4"
+    },
+    {
+      "Tipo de superficie": "Interior"
+    },
+    {
+      "Uso interior y exterior": "Interior"
+    },
+    {
+      "Número de modelo": "HL-002565"
+    },
+    {
+      "UPC": "841710108248"
+    },
+    {
+      "Número de identificación de comercio global": "00841710108248"
+    },
+    {
+      "Fabricante": "Amazon"
+    },
+    {
+      "Número de pieza del fabricante": "GF-50527"
+    },
+    {
+      "Tipo de Cama o Colchones": "B00IIFW2L4"
+    },
+    {
+      "Clasificación en los más vendidos de Amazon": "nº3,494 en Our Brands (Ver el Top 100 en Our Brands)  nº128 en Sillas de Escritorio de Oficina"
+    },
+    {
+      "ASIN": "B00IIFW2L4"
+    },
+    {
+      "Material o tela": "Plástico"
+    },
+    {
+      "Tipo de material del armazón/marco": "Nailon"
+    },
+    {
+      "Instrucciones de cuidado del producto": "Limpiar con un Paño"
+    },
+    {
+      "Tipo de material del asiento": "Espuma"
+    },
+    {
+      "Material de relleno del saco de dormir": "Espuma"
+    },
+    {
+      "Tipo de tela": "malla"
+    },
+    {
+      "Peso Máximo Recomendado": "275 Libras"
+    },
+    {
+      "Descripción de instrucciones de montaje": "Para garantizar un montaje adecuado, sigue todos los pasos proporcionados en el manual de usuario (idioma español no garantizado)."
+    },
+    {
+      "¿Se requiere ensamblaje?": "Sí"
+    },
+    {
+      "Color": "Negro"
+    },
+    {
+      "Estilo del reverso": "Respaldo sólido"
+    },
+    {
+      "Nombre del estilo": "Silla de malla con respaldo medio"
+    },
+    {
+      "Patrón": "Sólido"
+    },
+    {
+      "Acabado": "Malla"
+    },
+    {
+      "Forma": "23.62*35.63-40.35*24.61\""
+    },
+    {
+      "Estilo del brazo": "Con brazos"
+    },
+    {
+      "Acabado del mobiliario": "Níquel"
+    },
+    {
+      "Estilo cojín": "Estilo de borde de caja"
+    },
+    {
+      "Estilo de pierna": "No"
+    },
+    {
+      "Factor de forma": "Plegable"
+    },
+    {
+      "Dimensiones del artículo (profundidad x ancho x alto)": "26,26\"prof. x 26,38\"an. x 40,24\"al. pulgadas"
+    },
+    {
+      "Tamaño": "Mid-Back"
+    },
+    {
+      "Peso del artículo": "24,58 Libras"
+    },
+    {
+      "Total del paquete según la medida elegida para referenciar precio": "1.0 Conteo"
+    },
+    {
+      "Altura del sillín": "22 Pulgadas"
+    },
+    {
+      "Profundidad del asiento": "17.72 pulgadas"
+    },
+    {
+      "Dimensiones Artículo": "25,2 x 24,02 x 40,35 pulgadas"
+    },
+    {
+      "Profundidad del artículo": "26.25 inches"
+    },
+    {
+      "Características especiales": "Ajustable"
+    },
+    {
+      "Movimiento de la base del mueble": "Giratorio"
+    },
+    {
+      "Recuento de posiciones de reclinación": "34 ES"
+    },
+    {
+      "Inclinación": "No"
+    },
+    {
+      "¿Se puede personalizar?": "No"
+    },
+    {
+      "Plegable": "No"
+    },
+    {
+      "¿Es eléctrico?": "No"
+    }
+  ],
+  "images": [
+    "https://m.media-amazon.com/images/I/91vH3ZqS2sL._AC_SL1500_.jpg"
+  ]
+}
